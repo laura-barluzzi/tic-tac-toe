@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe Game</title>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
+
+
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="style.css">
+
+  
+</head>
+
+<body>
+  <div id="title">Tic Tac Toe</div>
+
+<!--player symbol-->
+<div id="ask-symbol">
+  <p>Which symbol you want to use?</p>
+  <button class="btn-info" id="x"> X </button>
+  <button class="btn-info" id="o"> O </button>
+</div>
+
+<!--tictactoe boardgame-->
+<div class="container">
+  <div id="bar-game">
+    <span id="player" >You : <span id="player-score">0</span></span>
+    <span id="message">message</span>
+    <span id="computer">Computer : <span id="computer-score">0</span></span>    
+  </div>
+
+  <div id="tictactoe">
+
+    <div class="line" id="line-1">
+      <span class="square" id="1"></span>
+      <span class="square" id="2"></span>
+      <span class="square" id="3"></span>
+    </div> <!--line-1-->
+
+    <div class="line">
+      <span class="square" id="4"></span>
+      <span class="square" id="5"></span>
+      <span class="square" id="6"></span>
+    </div> <!--line-2-->
+
+    <div class="line">
+      <span class="square" id="7"></span>
+      <span class="square" id="8"></span>
+      <span class="square" id="9"></span>
+    </div> <!--line-3-->
+
+  </div> <!--tictactoe-->
+</div>
+
+<div id="signature">by Laura Barluzzi</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
